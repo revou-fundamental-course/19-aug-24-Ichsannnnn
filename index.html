@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <header>
+        <div class="logo-icon"></div>
+      </header>
+      <section class="nav-container">
+        <a href="#" class="nav-item">Beranda</a>
+        <a href="#" class="nav-item">Profil Sekolah</a>
+        <a href="#" class="nav-item">Visi Misi</a>
+        <a href="#" class="nav-item">Tentang Kami</a>
+      </section>
+    </nav>
+    <hr />
+    <main>
+      <article>
+        <header>
+          <h1>Welcome user, to our website</h1>
+        </header>
+        <p>lorem ipsum dolansit amet sdsdsdsdsds</p>
+        <div class="banner-img"></div>
+      </article>
+      <hr />
+      <section>
+        <header>
+          <h1>Our Profile</h1>
+        </header>
+        <section class="profile-container">
+          <div class="profile-item">
+            <div class="profile-img"></div>
+            <h2>SD</h2>
+          </div>
+          <div class="profile-item">
+            <div class="profile-img2"></div>
+            <h2>SMP</h2>
+          </div>
+          <div class="profile-item">
+            <div class="profile-img3"></div>
+            <h2>SMA</h2>
+          </div>
+        </section>
+      </section>
+      <hr />
+    </main>
+    <body>
+      <div class="container">
+        <div class="form-container">
+          <h2>Message Us</h2>
+          <form id="messageForm">
+            <div class="form-group">
+              <label for="name">Nama:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nama"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="birthdate">Tanggal Lahir:</label>
+              <input type="date" id="birthdate" name="birthdate" required />
+            </div>
+            <div class="form-group">
+              <label for="gender">Jenis Kelamin:</label>
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="Laki-Laki"
+                required
+              />
+              <label for="male">Laki-Laki</label>
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="Perempuan"
+                required
+              />
+              <label for="female">Perempuan</label>
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan:</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Pesan"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="output-container" id="output">
+          <!-- Output will be displayed here -->
+        </div>
+      </div>
+      <script src="JS/script.js"></script>
+    </body>
+    <div class="kontak" id="kontak"></div>
+    <footer>
+      <div class="isi-footer">
+        <h1>TENTANG SAIM</h1>
+        <p class="tentang-saim">
+          Sekolah Alam Insan Mulia Surabaya “SAIM”, berdiri pada tahun 2000.
+          SAIM berusaha mewarnai sistem pendidikan di Indonesia. Belajar dengan
+          tema-tema yang dijumpai di sekitar, menciptakan proses yang
+          menyenangkan dengan proyek individu dan kelompok, serta proses belajar
+          yang dilakukan secara integratif menjadi sebuah kolaborasi sinergi
+          semua civitas akademika di Sekolah Alam Insan Mulia.
+        </p>
+        <p class="copyright-footer">2024 SAIM</p>
+      </div>
+      <div class="footer-center">
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          <p><span>Indonesia</span> Surabaya, Jawa timur</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <p>0812 3454 5543</p>
+        </div>
+        <div>
+          <i class="fa-regular fa-envelope"></i>
+          <p><a href="#">saim@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <h1>Follow Us</h1>
+        <p>ig: saim_education</p>
+        <p>fb : saimjawatimur</p>
+      </div>
+    </footer>
+  </body>
+</html>
